@@ -33,7 +33,7 @@ setuptools.setup(
     author="Stephen James",
     author_email="stepjamuk@gmail.com",
     packages=setuptools.find_packages(),
-    python_requires=">=3.10",
+    python_requires=">=3.9",
     install_requires=core_requirements,
     extras_require={
         "dev": ["pre-commit", "pytest"],
